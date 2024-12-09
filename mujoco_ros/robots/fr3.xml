@@ -1,0 +1,11 @@
+<mujoco model="fr3">
+    <include file="assets/assets.xml"/>
+    <include file="fr3/assets.xml"/>
+    
+    <worldbody>
+        <include file="assets/basic_scene.xml" />    
+        <include file="fr3/fr3.urdf.xml" />    
+    </worldbody>
+
+    <include file = 'fr3/actuator.xml' />
+</mujoco>
